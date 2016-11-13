@@ -1,0 +1,44 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+ul {
+  position: relative;
+}
+.delete {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  cursor: pointer;
+}
+.actions {
+  display: inline-block;
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+.body{
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+}
+.priority {
+  display: inline-block;
+  min-width: 20px;
+  text-align: right;
+}
+
+.tasks-done {
+  .actions {
+
+  }
+  .body{
+    text-decoration: line-through;
+  }
+  .priority {
+
+  }
+}
